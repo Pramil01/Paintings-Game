@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
+
+.outer-container {
+  height: 100vh;
+  background: linear-gradient(to right, #41295a, #2f0743);
+}
+
+.container {
+  height: 500px;
+  width: 860px;
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  float: left;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 30px;
+}
+.links h2 {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Revalia", cursive;
+  transition: 0.8s;
+}
+.links h1 {
+  color: white;
+  text-decoration: none;
+  font-family: "Revalia", cursive;
+  transition: 0.8s;
+}
+
+.top-button {
+  float: right;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+button {
+  background-color: transparent;
+  font-size: larger;
+  padding: 15px 30px;
+  border-radius: 12px;
+  height: 100%;
+  transition: 300ms;
+  align-items: center;
+  border: 2px solid purple;
+  box-shadow: rgb(151 65 252 / 20%) 0 15px 30px -5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Revalia", cursive;
+  transition: 0.8s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #834d9b, #d04ed6);
+}
+
+.bi-stars {
+  height: 35px;
+  width: 35px;
+  transform: translateY(20px);
+  fill: blue;
+  cursor: pointer;
+}
+
+.main-div {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-div h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #ffb84d;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #ffb84d 25%,
+    #0026ff 100%,
+    #fcfcfc 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.main-header {
+  margin-bottom: 20px;
+}
+
+.nft-stuff {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.nft-stuff h4 {
+  font-family: "Revalia", cursive;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 75px;
+  color: #fff;
+  transition: 0.8s;
+}
+
+.results {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+  font-family: "Revalia", cursive;
+  color: #fff;
+}
+
+.warning {
+  display: flex;
+  margin-bottom: 20px;
+  font-family: "Revalia", cursive;
+  font-size: 12px;
+  color: #fff;
+}
+
+.yellow-text {
+  color: #ffb84d;
+}
+
+.bi-exclamation-triangle-fill {
+  fill: #ffb84d;
+}
+
+.cta {
+  display: flex;
+  font-family: "Revalia", cursive;
+  gap: 10px;
+  align-items: center;
+}
+
+.cta a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bi-play-circle {
+  fill: #ffb84d;
+}
+
+.bi-play-circle,
+.intro-text {
+  transition: 0.8s;
+}
+.bi-play-circle:hover,
+.intro-text:hover {
+  transform: translateY(-20%);
+}
+
+.right-div {
+  display: flex;
+  margin-top: 10px;
+}
+
+.accessories {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accessories p {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: "Revalia", cursive;
+  color: #ffb84d;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #ffb84d 25%,
+    #0026ff 100%,
+    #fcfcfc 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Revalia", cursive;
+}
+.scroll .yellow-text {
+  cursor: pointer;
+}
+
+.bi-mouse2 {
+  color: #ffb84d;
+  cursor: pointer;
+}
+
+.ebenny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+}
+.ebenny a {
+  color: #ffb84d;
+  text-decoration: none;
+}
+
+img {
+  height: 360px;
+}
+
+.bi-arrow-up {
+  fill: blue;
+}
+
+.bi-arrow-down {
+  fill: #fff;
+}
