@@ -5,14 +5,9 @@ const cors = require("cors");
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
-// app.use(
-//   cors({
-//     origin: "https://painting-game.netlify.app",
-//   })
-// );
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://painting-game.netlify.app",
   })
 );
 
