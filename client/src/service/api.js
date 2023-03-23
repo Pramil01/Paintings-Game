@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseURL = "http://localhost:5000/";
+let baseURL = "https://painting-game.onrender.com/";
 // if (process.env.NODE_ENV === "production") {
 //   baseURL = "https://App-name.herokuapp.com";
 // } else {
