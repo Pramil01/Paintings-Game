@@ -266,6 +266,10 @@ img {
   .container {
     padding: 20px;
     border-radius: 10px;
+    top: 60%;
+  }
+  .outer-container {
+    height: 120vh;
   }
   .top-section {
     flex-direction: column;
